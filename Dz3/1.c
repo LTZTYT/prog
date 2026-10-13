@@ -8,4 +8,4 @@ int main(void) {
     int ll=sizeof(arrr),ss=strlen(arrr),vv=ll-ss-1;
     printf("SIZEOF: %d\nSTRLEN: %d\nFREE_BYTES: %d\n",ll,ss,vv);
     return 0;
-} /*sizeof смотрит на вес, а стрлен на кол-во символов */
+} /*sizeof смотрит на вес, а стрлен на кол-во байт */
